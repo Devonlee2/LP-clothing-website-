@@ -7,6 +7,7 @@
 }
 body{
     font-family: var(--sm-font);
+    
 }
 
 /* button */
@@ -14,16 +15,26 @@ body{
     background-color: var(--pink)!important ;
 }
 
+.btn:not(.nav-btns button){
+    background-color: rgb(209, 15, 15)!important;
+    color:(109, 3, 52)
+}
+
 /* navbar */
 .navbar{
     box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0,1);
+    background: url(../images/blackwallpaper.png);
+
 }
 .navbar-brand img{
-    width: 30px;
+    width: 60px;
+    
 }
 .navbar-brand span{
     letter-spacing: 2px;
     font-family: var(--lg-font);
+    color:rgb(109, 3, 52);
+    font-weight: bold;
 }
 .nav-link:hover{
     color: var(--pink)!important
@@ -31,6 +42,20 @@ body{
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.5,);
 }
+
+/* header */
+#header{
+    background: url(../images/LPFinishedbanner3.jpg) top/cover no-repeat;
+    padding-top: 6px;
+    
+}
+
+
+
+
+
+
+
 /* media queries */
 @media(min-width: 992px){
     .nav-item{
